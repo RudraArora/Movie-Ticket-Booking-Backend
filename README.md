@@ -1,6 +1,6 @@
-# RA-BookMyShow-BE
+# Movie Ticket Booking Backend
 
- - Backend for the **BookMyShow Clone** project — a Django-based REST API for movie ticket booking.
+ - Backend for the **Movie Ticket Booking** project — a Django-based REST API for movie ticket booking.
 
 ## Setup Instructions
 
