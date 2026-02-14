@@ -13,6 +13,7 @@ drf-spectacular = "~=0.29"
 django-dynamic-fixture = "~=4.0"
 django-cors-headers = "~=4.9"
 coverage = "7.12"
+pillow = "*"
 
 [dev-packages]
 

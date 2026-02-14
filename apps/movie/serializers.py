@@ -52,4 +52,5 @@ class MovieSerializer(serializers.ModelSerializer):
             "languages",
             "genres",
             "slug",
+            "image",
         ]

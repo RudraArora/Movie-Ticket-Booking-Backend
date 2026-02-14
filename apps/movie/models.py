@@ -99,6 +99,7 @@ class Movie(common_models.TimeStampModel):
         max_length=movie_constants.MaxLength.SLUG,
         help_text=movie_constants.HelpText.SLUG,
     )
+    image = db_models.ImageField(upload_to="movies/%Y/%m/%d/", blank=True, null=True)
 
     def clean(self):
         self.slug = slugify(self.name)
