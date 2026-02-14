@@ -15,6 +15,7 @@ django-cors-headers = "~=4.9"
 coverage = "7.12"
 pillow = "*"
 gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 
