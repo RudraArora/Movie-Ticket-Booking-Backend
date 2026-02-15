@@ -54,3 +54,8 @@ class MovieSerializer(serializers.ModelSerializer):
             "slug",
             "image",
         ]
+
+    def get_image(self, obj):
+        if obj.image:
+            return obj.image.url
+        return None

@@ -16,6 +16,8 @@ coverage = "7.12"
 pillow = "*"
 gunicorn = "*"
 whitenoise = "*"
+cloudinary = "*"
+django-cloudinary-storage = "*"
 
 [dev-packages]
 
